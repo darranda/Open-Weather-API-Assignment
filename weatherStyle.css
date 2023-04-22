@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(226, 250, 250);
+}
+
+.container {
+    margin-top: 50px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .header {
+    background-color: #97c1e9;
+    color: white;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 75px;
+    font-weight: bold;
+    color: black;
+    padding: 20px;
+    padding-left: 40px;
+  }
+  
+  .weatherData {
+    display: flex;
+    background-color: #d1cb5a;
+    padding-top: 50px; 
+    padding-bottom: 50px;
+    justify-content: center;
+  }
+
+  .weatherInfo {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .currentDate {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .zipCode {
+    width: 100%;
+    padding: 10px;
+    border: 5px; 
+    border-style: solid; 
+    border-color:black;
+  }
+  
+  .getWeather {
+    width: 100px;
+    background-color: blue;
+    color: rgb(161, 131, 131);
+    border: 5px;
+    border-style:solid;
+    border-color: black;
+    cursor: pointer;
+  }
+  
+  .zipCodeCity {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  img {
+    width: 100%;
+    height:200px;
+    padding: 10px;
+  }
+  
+  .currentConditions {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  
+  .temperature {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .tempHiLo {
+    font-size: 20px;
+    font-weight: bold;
+  }
